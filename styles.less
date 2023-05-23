@@ -1,0 +1,155 @@
+ 
+  section {
+    background: @b;
+  
+    article.skills {
+      width: 500px;
+      height: auto;
+  
+      p {
+        z-index: 2;
+        color: @w;
+        padding: 10px;
+        position: relative;
+        box-sizing: border-box;
+        overflow: hidden;
+      }
+  
+      div {
+        //
+  
+        span:nth-child(1) {
+          z-index: -2;
+          position: absolute;
+          top: 0; bottom: 0; left: 0; right: 0;
+          margin: auto;
+          background: @w;
+          height: 100%;
+          width: 100%;
+        }
+  
+        span:nth-child(2) {
+          z-index: -1;
+          position: absolute;
+          top: 0; bottom: 0; left: 0; right: 0;
+          background: @b-skills;
+          height: 100%;
+        }
+      }
+  
+      div:nth-child(1) {
+        //
+  
+        span:nth-child(2) {
+          width: @skills01;
+          animation-delay: 0;
+        }
+      }
+  
+      div:nth-child(2) {
+        //
+  
+        span:nth-child(2) {
+          width: @skills02;
+          animation-delay: 0.05s;
+        }
+      }
+  
+      div:nth-child(3) {
+        //
+  
+        span:nth-child(2) {
+          width: @skills03;
+          animation-delay: 0.1s;
+        }
+      }
+  
+      div:nth-child(4) {
+        //
+  
+        span:nth-child(2) {
+          width: @skills04;
+          animation-delay: 0.15s;
+        }
+      }
+  
+      div:nth-child(5) {
+        //
+  
+        span:nth-child(2) {
+          width: @skills05;
+          animation-delay: 0.2s;
+        }
+      }
+  
+      div:nth-child(6) {
+        //
+  
+        span:nth-child(2) {
+          width: @skills06;
+          animation-delay: 0.25s;
+        }
+      }
+  
+      div:nth-child(7) {
+        //
+  
+        span:nth-child(2) {
+          width: @skills07;
+          animation-delay: 0.3s;
+        }
+      }
+  
+      div:nth-child(8) {
+        //
+  
+        span:nth-child(2) {
+          width: @skills08;
+          animation-delay: 0.35s;
+        }
+      }
+    }
+  
+    &:before {
+      position: absolute;
+      top: -250px; left: -350px;
+      width: 500px;
+      height: 500px;
+      content: '';
+      background: @b-rgba;
+      transform: rotate(30deg);
+    }
+  
+    &:after {
+      position: absolute;
+      bottom: -250px; right: -350px;
+      width: 500px;
+      height: 500px;
+      content: '';
+      background:@b-rgba;
+      transform: rotate(30deg);
+    }
+  }
+  
+  .skills {
+      animation: skills 1.25s @bezier;
+  }
+  
+  @keyframes skills {
+      0% {
+          left: -500px;
+          opacity: 0;
+      }
+      100% {
+          left: 0;
+          opacity: 1;
+      }
+  }
+
+
+
+
+
+
+
+

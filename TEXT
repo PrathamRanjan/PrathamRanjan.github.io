@@ -1,0 +1,176 @@
+<section id="skill" >
+                    <div class="container">
+                        <div class="row mb-4">
+                            <div class="col-sm-12">
+                                <div class="skill-title py-2 border-shadow mt-2">
+                                    <h1 class="text-center ">SKILLS</h1>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="row1">
+                            <div class="col-sm-6">
+                                <div class="skill-as-designer border-shadow p-3">
+                                    <h4 class="text-center mb-2 ">Programming/Framework Skills</h4>
+                
+                                    <dl class="row">
+                                      <dt class="col-sm-3 mt-2">HTML</dt>
+                                      <dd class="col-sm-9 mt-2"><span class="skill-bar html-bar"><span class="text-right d-block mr-2 animation-blink">100%</span></span></dd>
+                
+                                      <dt class="col-sm-3 mt-2">CSS</dt>
+                                      <dd class="col-sm-9 mt-2">
+                                        <span class="skill-bar css-bar"><span class="text-right d-block mr-2 animation-blink">100%</span></span>
+                                      </dd>
+                
+                                      <dt class="col-sm-3 mt-2">Python</dt>
+                                      <dd class="col-sm-9 mt-2"><span class="skill-bar bootstrap-bar"><span class="text-right d-block mr-2 animation-blink">100%</span></span></dd>
+                
+                                      <dt class="col-sm-3 mt-2">C</dt>
+                                      <dd class="col-sm-9 mt-2"><span class="skill-bar javascript-bar"><span class="text-right d-block mr-2 animation-blink">85%</span></span></dd>
+                
+                                      <dt class="col-sm-3 mt-2">R</dt>
+                                      <dd class="col-sm-9 mt-2"><span class="skill-bar jquery-bar"><span class="text-right d-block mr-2 animation-blink">90%</span></span></dd>
+
+                                      <dt class="col-sm-3 mt-2">SQL</dt>
+                                      <dd class="col-sm-9 mt-2"><span class="skill-bar SQL-bar"><span class="text-right d-block mr-2 animation-blink">70%</span></span></dd>
+                                    </dl>
+                                    
+                                </div>
+                            </div>
+                            <div class="row2">
+                                <div class="skill-as-developer  p-3 border-shadow">
+                                    <h4 class="text-center mb-2 ">Business Skills &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                                    <dl class="row">
+                                      <dt class="col-sm-3 mt-2">Statistics</dt>
+                                      <dd class="col-sm-9 mt-2"><span class="skill-bar php-bar"><span class="text-right d-block mr-2 animation-blink">90%</span></span></dd>
+                
+                                      <dt class="col-sm-3 mt-2">Data Analysis</dt>
+                                      <dd class="col-sm-9 mt-2">
+                                        <span class="skill-bar laravel-bar"><span class="text-right d-block mr-2 animation-blink">80%</span></span>
+                                      </dd>
+                
+                                      <dt class="col-sm-3 mt-2">Business Analysis</dt>
+                                      <dd class="col-sm-9 mt-2"><span class="skill-bar ajax-bar"><span class="text-right d-block mr-2 animation-blink">90%</span></span></dd>
+                
+    
+                                    </dl>
+                                </div>
+                            </div>
+
+                            <div class="row3">
+                                <div class="skill-as-developer  p-3 border-shadow">
+                                    <h4 class="text-center mb-2 ">Soft Skills&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                                    <dl class="row">
+                                      <dt class="col-sm-3 mt-2">Leadership</dt>
+                                      <dd class="col-sm-9 mt-2"><span class="skill-bar leadership-bar"><span class="text-right d-block mr-2 animation-blink">90%</span></span></dd>
+                
+                                      <dt class="col-sm-3 mt-2">Team Work</dt>
+                                      <dd class="col-sm-9 mt-2">
+                                        <span class="skill-bar TW-bar"><span class="text-right d-block mr-2 animation-blink">80%</span></span>
+                                      </dd>
+                
+                                      <dt class="col-sm-3 mt-2">Public Speaking</dt>
+                                      <dd class="col-sm-9 mt-2"><span class="skill-bar PS-bar"><span class="text-right d-block mr-2 animation-blink">90%</span></span></dd>
+                
+    
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+                body{
+                    font:BN;
+                    background:skyblue;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    height: 100vh;
+            
+                  }
+            
+                .row{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.5vh;
+                }
+            
+                .row{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.5vh;
+                }
+            
+                .row{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.5vh;
+                }
+                  
+                  .border-shadow{
+                      box-shadow:  0px 0px 2px  #717171;
+                  }
+                  .skill-bar{
+                      font:BN;
+                      display: inline-block;
+                      cursor: pointer;
+                      background: white;
+                      height: 3vh;
+                      font-size: 3vh;
+                  
+                  }
+                  .html-bar{
+                      width: 100%;
+                  }
+                  .css-bar{
+                      width: 100%;
+                  }
+                  .bootstrap-bar{
+                      width: 100%;
+                  }
+                  .javascript-bar{
+                      width: 85%;
+                  }
+                  .jquery-bar{
+                      width: 90%;
+                  }
+            
+                  .SQL-bar{
+                        width: 70%;
+                  }
+                  
+                  .skill-bar:hover span{
+                      color: white;
+                  }
+                  
+                  .php-bar{
+                      width: 90%;
+                  }
+                  .laravel-bar{
+                      width: 80%;
+                  }
+                  .ajax-bar{
+                      width: 90%;
+                  }
+                  
+                  .skill-bar:hover span{
+                      color: white;
+                  }
+            
+            
+                .leadership-bar{
+                    width: 90%;
+                }
+                .TW-bar{
+                    width: 80%;
+                }
+                .PS-bar{
+                    width: 90%;
+                }
+                
+                .skill-bar:hover span{
+                    color: white;
+                }
